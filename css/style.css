@@ -1,0 +1,24 @@
+.main{
+    text-align: center;
+}
+.all_maxitupItem{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding-top: 100px;
+}
+.item img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+button {
+    color: black;
+    padding: 16px 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    background: #eda5a5;
+    margin-left: 20px;
+}
