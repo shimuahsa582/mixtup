@@ -1,3 +1,8 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: green;
+}
 .main{
     text-align: center;
 }
@@ -8,11 +13,6 @@
     row-gap: 30px;
     padding-top: 100px;
 }
-.item img {
-    width: 400px;
-    height: 300px;
-    border-radius: 20px;
-}
 button {
     color: black;
     padding: 16px 50px;
@@ -21,4 +21,25 @@ button {
     font-size: 22px;
     background: #eda5a5;
     margin-left: 20px;
+}
+.item {
+    padding: 30px 20px;
+    border: 1px solid #dff4df;
+    width: 370px;
+    height: auto;
+    border-radius: 10px;
+}
+.item img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.item h2 {
+    color: #14b114;
+    font-size: 27px;
+}
+.item p {
+    color: #a0d4a0;
+    font-size: 18px;
+    text-align: justify;
 }
